@@ -11,6 +11,7 @@
   inputs.src-i3ipc-master.ref   = "refs/heads/master";
   inputs.src-i3ipc-master.owner = "FedericoCeratto";
   inputs.src-i3ipc-master.repo  = "nim-i3ipc";
+  inputs.src-i3ipc-master.dir   = "";
   inputs.src-i3ipc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
